@@ -2,7 +2,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
-.hind-madurai-regular {
+.hind-madurai {
   font-family: "Hind Madurai", sans-serif;
   font-style: normal;
 }
@@ -16,6 +16,18 @@ nav {
 
 section {
   color: white;
+  font-family: "Hind Madurai", sans-serif;
+  font-style: normal;
+}
+.lists {
+  font-size: 18px;
+}
+.num {
+  font-family: "Hind Madurai", sans-serif;
+  font-style: normal;
+}
+
+.bottom-sec h1 {
   font-family: "Hind Madurai", sans-serif;
   font-style: normal;
 }

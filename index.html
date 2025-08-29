@@ -10,7 +10,7 @@
 
   
 </head>
-<body class="mx-auto">
+<body class="mx-auto bg-[#F5FFF6]">
 
   <nav>
     <div class="flex justify-between items-center bg-white py-6 px-[60px]">
@@ -39,12 +39,102 @@
 
   <section>
     <div class="bg-gradient-to-l from-[#013223] via-[#006747] to-[#013223] flex flex-col items-center gap-y-[11px] py-12 px-[60px]">
-      <img src="assets/logo.png" class="max-w-[92px]">
+      <img src="assets/logo-dark.png" class="max-w-[92px]">
       <h1 class="font-bold text-center text-[40px]">Emergency Service Directory</h1>
       <p class="font-semibold text-center text-xl">Government Emergency Services at Your Fingertip - A Project by  Government of the People's Republic of Bangladesh</p>
     </div>
   </section>
 
+
+  <main class="px-14 py-20 flex justify-between">
+    <div class="cards grid grid-cols-3 grid-rows-3 gap-[30px] border-[4px] border-red-700">
+
+      <div class="card rounded-xl bg-white border-[4px] border-amber-950">
+        <div class="p-8 flex flex-col gap-y-4">
+          <div class="top-sec flex justify-between items center">
+            <img src="assets/emergency.png" class="max-w-[60px] h-[60px] object-cover" >
+            <img src="assets/love.png" class="max-w-6 h-6 object-cover">
+          </div>
+          <div class="bottom-sec flex flex-col gap-y-6">
+            <div>
+              <h1 class="font-bold text-2xl text-nowrap leading-8 ">National Emergency Number</h1>
+              <p class="text-lg text-[#5C5C5C]">National Emergency</p>
+            </div>
+            <div>
+              <div class="font-bold text-[32px]">999</div>
+              <div class=" px-16 py-[6px] rounded-full bg-[#F2F2F2] font-hind-madurai text-lg text-[#5C5C5C]">All</div>
+            </div>
+            <div class="flex justify-between gap-x-2">
+              <button id="btn-copy" class="rounded-lg flex gap-x-[6px] justify-center items-center">
+                <img src="assets/copy.png" alt="">
+                <h1>Copy</h1>
+              </button>
+              <button id="btn-call">
+                <img src="" alt="">
+                <h1>Call</h1>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="history bg-white">
+      <div class="p-6 flex gap-y-4 flex-col">
+        <div class="flex justify-between items-center gap-x-[102px]">
+          <div class="flex justify-between items-center gap-x-3">
+            <img src="assets/history.png" class="max-w-6 object-cover">
+            <h1 class="text-xl font-medium">Call History</h1>
+          </div>
+          <div><button id="btn-clear" class="px-9 py-3 rounded-[50px] text-base text-white font-semibold font-inter bg-[#00A63E]">Clear</button></div>
+        </div>
+        <div class="lists">
+          <div class="flex justify-between items-center bg-[#FAFAFA] rounded-lg p-4 mb-4">
+            <div>
+              <h1 class="font-semibold" id="service-name">Fire Service Number</h1>
+              <p class="num text-[#5C5C5C]" id="service-number">999</p>
+            </div>
+            <div><p class="num" id="time">11:36:58 AM</p></div>
+          </div>
+          <div class="flex justify-between items-center bg-[#FAFAFA] rounded-lg p-4 mb-4">
+            <div>
+              <h1 class="font-semibold" id="service-name">National Emergency <br>Number</h1>
+              <p class="num text-[#5C5C5C]" id="service-number">1994-999999</p>
+            </div>
+            <div><p class="num" id="time">11:36:58 AM</p></div>
+          </div>
+          <div class="flex justify-between items-center bg-[#FAFAFA] rounded-lg p-4 mb-4">
+            <div>
+              <h1 class="font-semibold" id="service-name">Fire Service Number</h1>
+              <p class="num text-[#5C5C5C]" id="service-number">999</p>
+            </div>
+            <div><p class="num" id="time">11:36:58 AM</p></div>
+          </div>
+          <div class="flex justify-between items-center bg-[#FAFAFA] rounded-lg p-4 mb-4">
+            <div>
+              <h1 class="font-semibold" id="service-name">Bangladesh Railway <br>Helpline </h1>
+              <p class="num text-[#5C5C5C]" id="service-number">999</p>
+            </div>
+            <div><p class="num" id="time">11:36:58 AM</p></div>
+          </div>
+          <div class="flex justify-between items-center bg-[#FAFAFA] rounded-lg p-4 mb-4">
+            <div>
+              <h1 class="font-semibold" id="service-name">Fire Service Number</h1>
+              <p class="num text-[#5C5C5C]" id="service-number">999</p>
+            </div>
+            <div><p class="num" id="time">11:36:58 AM</p></div>
+          </div>
+          <div class="flex justify-between items-center bg-[#FAFAFA] rounded-lg p-4 mb-4">
+            <div>
+              <h1 class="font-semibold" id="service-name">Anti-Corruption Helpline</h1>
+              <p class="num text-[#5C5C5C]" id="service-number">999</p>
+            </div>
+            <div><p class="num" id="time">11:36:58 AM</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+</main>
 
 <script src="js/index.js"></script>
 </body>
